@@ -2,10 +2,11 @@
 import React from "react";
 
 import { cn } from "../../utils/cn";
+import { HoverEffect } from "@/components/ui/card-hover-effect";
 
 const content = [
   {
-    name: "Who We Are",
+    title: "Who We Are",
     // title: "Chair Board of Directors ",
     
     description:
@@ -17,7 +18,7 @@ const content = [
       ),
   },
   {
-    name: "Our Story",
+    title: "Our Story",
     // title: "Chair Board of Directors ",
     
     description:
@@ -29,7 +30,7 @@ const content = [
       ),
   },
   {
-    name: 'What We Do',
+    title: 'What We Do',
     // title: "Member Board of Directors",
     description:
       "Capacity Connect Ltd (CCL) is a consultancy service provider that excels in the area of development and humanitarian assistance and non-profit management. We serve development and humanitarian organizations as well as public sector institutions globally to deliver people centered and locally led development solutions. Capacity Connect is not just a consulting company, it is a movement that brings stakeholders together to catalyze and advance a more equitable, and sustainable world.",
@@ -43,7 +44,7 @@ const content = [
  
   
   {
-    name: 'Our Mission',
+    title: 'Our Mission',
     // title: "Member Board of Directors",
     description:
       "Our mission is to leverage our expansive local and global expertise to enhance capacity and foster connections for sustainable development. ",
@@ -54,7 +55,7 @@ const content = [
       ),
   },
   {
-    name: 'Our Vision',
+    title: 'Our Vision',
     // title: "Member Board of Directors",
     description:
       "We envision a world where communities everywhere are enabled to lead and achieve their development aspirations.",
@@ -70,24 +71,13 @@ const content = [
 
 function About() {
   return (
-    <main className="bg-[#0E1729] mb-10 flex flex-col items-center justify-center">
-    <h1 className="text-white my-10 text-4xl font-[700]">About Us</h1>
-  
-      <div className="w-[80%]">
-      <div  className={cn(
-        "grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3 gap-4 py-10",
-        // className
-      )}>
-        {content.map((item, i) => (
-          <div key={i} className="item ml-2" data-value="1">
-            <div className="w-[445px] px-4 rounded-lg text-white flex flex-col items-center justify-center">
-            <h1 className="text-3xl mb-4 font-bold">{item.name}</h1>
-            <p className="lg:text-justify">{item.description}</p>
-            </div>
-          </div>
-        ))}
-      </div>
-    </div>
+    <main className="bg-white mb-10 flex flex-col items-center justify-center">
+   <div className="w-[90%] flex flex-col items-center">
+        <div>
+            <h1 className="text-align text-black text-4xl font-bold mt-10">About Us</h1>
+        </div>
+     <HoverEffect items={content} />
+     </div>
      
   
    </main>

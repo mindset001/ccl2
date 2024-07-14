@@ -8,6 +8,8 @@ import { Hero } from "./components/hero";
 import {Staff} from "./components/staff"
 import About from "./components/about"
 import Work from "./components/work";
+import NewAbout from "./components/new";
+import Approach from "./components/approach";
 
 export default function Home() {
   return (
@@ -20,17 +22,23 @@ export default function Home() {
       <Hero/>
       
       <Expertise/>
-      <div id="about">
-      <About/>
-      </div>
       <div id="values">
       <Values/>
       </div>
+      <div id="about" className="mb-10">
+      <About/>
+      
+      </div>
+      <div>
+      <NewAbout/>
+      <Work/>
+      </div>
+     
       <div id="team">
       <Staff/>
       </div>
       <div>
-        <Work/>
+        <Approach/>
       </div>
       <div id="contact">
       <Footer/>
