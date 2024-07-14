@@ -64,6 +64,9 @@ export default function UnconventionalTabs() {
 
   return (
     <main className=''>
+        <div>
+            <h1 className="text-center text-black text-4xl font-bold mt-10 mb-4">About Us</h1>
+        </div>
         <Tab.Group>
       {({ selectedIndex }) => (
         <div className={`${caveat.variable}`}>
