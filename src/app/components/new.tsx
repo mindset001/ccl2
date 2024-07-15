@@ -84,7 +84,7 @@ export default function UnconventionalTabs() {
 
           {/* Tab panels */}
           <Tab.Panels className="flex justify-center ">
-            <div className="flex flex-col w-[60%] ">
+            <div className="flex flex-col w-[80%] lg:w-[60%] ">
 
               {tabs.map((tab, index) => (
                 <Tab.Panel
@@ -93,14 +93,14 @@ export default function UnconventionalTabs() {
                 >
                   <article className="bg-[#0E1729] rounded-2xl shadow-xl flex focus-visible:outline-none focus-visible:ring">
                     
-                    <div className=" flex flex-col items-center justify-center p-5 pl-3">
+                    <div className=" flex flex-col items-center justify-center lg:p-5 pl-3">
                       <div className="flex justify-between mb-1">
                         <header>
-                          <h1 className="text-xl font-bold text-white">{tab.title}</h1>
+                          <h1 className="text-xl font-bold text-white p-4">{tab.title}</h1>
                         </header>
                      
                       </div>
-                      <div className="text-white text-sm line-clamp-3 mb-2 p-4">{tab.excerpt}</div>
+                      <div className="text-white text-sm  mb-2 p-4">{tab.excerpt}</div>
                     
                     </div>
                   </article>

@@ -27,12 +27,12 @@ export default function Home() {
       <div id="values">
       <Values/>
       </div>
-      <div id="about" className="mb-10">
+      {/* <div id="about" className="mb-10">
       <About/>
       
-      </div>
-      <div>
-      <NewAbout/>
+      </div> */}
+      <div id="about">
+      <NewAbout />
       <Work/>
       </div>
 {/*      

@@ -161,7 +161,7 @@ export default function NewTeam() {
                   >
                     <div className='flex flex-col lg:flex-row'>
                     <figure className="min-[480px]:w-1/2 p-2">
-                      <Image className="w-full h-full object-cover rounded-lg" width="304" height="214" src={tab.img} alt={tab.title} />
+                      <Image className="w-full h-full object-cover rounded-lg" src={tab.img} alt={tab.title} />
                     </figure>
                     <div className="lg:w-1/2 flex flex-col justify-center p-5 pl-3">
                       <div className="flex justify-between mb-1">

@@ -29,7 +29,7 @@ function Approach() {
   return (
     <div className='flex justify-center'>
         <div className='w-[85%]'>
-        <div className='lg:w-full mt-20 '>
+        <div className='lg:w-full mt-0 '>
       <h1 className="text-center text-black text-4xl font-bold capitalize">Our Approach- the ABCDE +S Approach</h1>
      <div className='grid lg:grid-cols-3 gap-4 mt-4'>
      {slides.map((slide, index) => (
