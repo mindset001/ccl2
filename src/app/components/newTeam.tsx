@@ -131,7 +131,7 @@ export default function NewTeam() {
               {tabs.map((tab, index) => (
                 <Tab key={index} as={Fragment}>
                   <button
-                    className={`flex-1 text-sm font-medium h-8 px-4 rounded-2xl whitespace-nowrap focus-visible:outline-none ui-focus-visible:outline-none ui-focus-visible:ring ui-focus-visible:ring-indigo-300 transition-colors duration-150 ease-in-out ${selectedIndex === index ? 'bg-white text-slate-900' : 'text-slate-600 hover:text-slate-900'}}`}>{tab.name}</button>
+                    className={`flex-1 text-left text-sm font-medium h-8 px-4 rounded-2xl whitespace-nowrap focus-visible:outline-none ui-focus-visible:outline-none ui-focus-visible:ring ui-focus-visible:ring-indigo-300 transition-colors duration-150 ease-in-out ${selectedIndex === index ? 'bg-white text-slate-900' : 'text-slate-600 hover:text-slate-900'}}`}>{tab.name}</button>
                 </Tab>
               ))}
             </Tab.List>
@@ -163,7 +163,7 @@ export default function NewTeam() {
                     <figure className="min-[480px]:w-1/2 p-2">
                       <Image className="w-full h-full object-cover rounded-lg" src={tab.img} alt={tab.title} />
                     </figure>
-                    <div className="lg:w-1/2 flex flex-col justify-center p-5 pl-3">
+                    <div className="lg:w-1/2 flex flex-col p-5 pl-3">
                       <div className="flex justify-between mb-1">
                         <header>
                           <div className="font-caveat text-xl font-medium text-sky-500">{tab.name}</div>
@@ -171,7 +171,7 @@ export default function NewTeam() {
                         </header>
                     
                       </div>
-                      <div className="text-slate-500 text-sm  mb-2">{tab.description}</div>
+                      <div className="text-slate-500 text-sm text-justify mb-2">{tab.description}</div>
                      
                     </div>
                     </div>

@@ -32,7 +32,7 @@ export function Values() {
 const testimonials = [
   {
     quote:
-      "We connect people and organizations to form synergistic partnerships that delivers lasting change.",
+      "We connect people and organizations to form synergistic partnerships that deliver lasting change..",
     name: "Connection",
 
   },
@@ -49,13 +49,13 @@ const testimonials = [
   },
   {
     quote:
-      "We consistently hold ourselves and each other to delivering excellence and ensuring the highest-level of professionalism in everything we do.",
+      "We consistently hold ourselves and each other to delivering excellence and ensuring the highest-level of professionalism",
     name: "Integrity",
 
   },
   {
     quote:
-      "We are transparent about what we know and what we don’t know, and we own up when we make mistakes. We trust the wisdom of the local actors we serve.",
+      "We are transparent about what we know and what we don’t know, and we own up when we make mistakes. We commit to a philosophy of learning from and trusting the wisdom of the communities we serve.",
     name: "Humility",
 
   },

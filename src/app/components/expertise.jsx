@@ -5,7 +5,7 @@ import { HoverEffect } from "../../components/ui/card-hover-effect";
 export function Expertise() {
   return (
     <div className="w-full flex flex-col justify-center items-center px-8">
-      <div className="lg:w-[80%] flex flex-col items-center mt-10">
+      <div className="lg:w-[85%] flex flex-col items-center mt-10">
         <div>
           <h1 className="text-align text-black text-4xl font-bold mt-10">Our Areas of Work</h1>
         </div>

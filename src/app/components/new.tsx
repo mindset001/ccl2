@@ -36,7 +36,7 @@ export default function UnconventionalTabs() {
       title: 'Our Story',
       img: Tab0Image2,
       tag: 'Mountain',
-      excerpt: "We are a group of development leaders privileged to have straddled the local-global development and humanitarian space, having led teams at national and global levels to deliver development interventions for many decades and across many countries around the world. We, along with many practitioners and academics in the field are disillusioned with current models of development and have decided to bring our wealth of experience and insights to complement local ingenuity to try out more locally led, sustainable and equitable development models to respond to our more complex and inequitable world.",
+      excerpt: "We are a group of development and humanitarian sector leaders privileged to have straddled the local-global development and humanitarian space, having led teams at national and global levels to deliver development interventions for many decades and across many countries around the world. We, along with many practitioners and academics in the field are committed to bring our wealth of experience and insights to complement local ingenuity to try out more locally-led, sustainable and equitable development models. This is in response to our more complex and inequitable world we currently live in and as part of ongoing efforts to improve on the current unsatisfactory models.",
       link: '#0'
     },
     // {
@@ -50,7 +50,7 @@ export default function UnconventionalTabs() {
         title: 'Our Mission',
         img: Tab0Image2,
         tag: 'Mountain',
-        excerpt: "Our mission is to leverage our expansive local and global expertise to enhance capacity and foster connections for sustainable development.",
+        excerpt: "Our mission is to leverage our expansive local and global expertise to enhance capacity and foster connections for sustainable development. ",
         link: '#0'
       },
       {
