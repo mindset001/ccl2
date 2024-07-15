@@ -10,6 +10,8 @@ import About from "./components/about"
 import Work from "./components/work";
 import NewAbout from "./components/new";
 import Approach from "./components/approach";
+import NewTeam from "./components/newTeam";
+import NewTeam2 from "./components/newTeam2";
 
 export default function Home() {
   return (
@@ -33,12 +35,18 @@ export default function Home() {
       <NewAbout/>
       <Work/>
       </div>
-     
+{/*      
       <div id="team">
       <Staff/>
-      </div>
+      </div> */}
       <div>
         <Approach/>
+      </div>
+      <div className="hidden lg:block" id="team">
+      <NewTeam/>
+      </div>
+      <div className="block lg:hidden" id="team">
+      <NewTeam2/>
       </div>
       <div id="contact">
       <Footer/>
