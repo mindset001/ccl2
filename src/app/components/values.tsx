@@ -32,7 +32,7 @@ export function Values() {
 const testimonials = [
   {
     quote:
-      "We connect people and organizations to form synergistic partnerships that deliver lasting change..",
+      "We connect people and organizations to form synergistic partnerships that deliver lasting change.",
     name: "Connection",
 
   },

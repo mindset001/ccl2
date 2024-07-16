@@ -12,6 +12,8 @@ import NewAbout from "./components/new";
 import Approach from "./components/approach";
 import NewTeam from "./components/newTeam";
 import NewTeam2 from "./components/newTeam2";
+import TechTeam from "./components/techTeam";
+import TeachTeam2 from "./components/teachTeam2";
 
 export default function Home() {
   return (
@@ -44,9 +46,11 @@ export default function Home() {
       </div>
       <div className="hidden lg:block" id="team">
       <NewTeam/>
+      <TechTeam/>
       </div>
       <div className="block lg:hidden" id="team">
       <NewTeam2/>
+      <TeachTeam2/>
       </div>
       <div id="contact">
       <Footer/>

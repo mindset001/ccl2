@@ -5,7 +5,7 @@ import Image, { StaticImageData } from 'next/image'
 import { Tab } from '@headlessui/react'
 import { Transition } from '@headlessui/react'
 import { Caveat } from 'next/font/google'
-import TabImage01 from '../../../public/images/aminach.png'
+import TabImage01 from '../../../public/images/aminach2.png'
 import TabImage2 from '../../../public/images/jumoke.png'
 import TabImage3 from '../../../public/images/kole.png'
 import TabImage4 from '../../../public/images/yashaua.png'
@@ -48,14 +48,7 @@ export default function NewTeam() {
           img: TabImage2,
           link: ''
       },
-      {
-          name: "Kole Shettima PhD",
-          title: "Member Board of Directors ",
-
-          description: "Kole Shettima is the African Regional Director of the MacArthur Foundation and Co-Director of the On Nigeria Big Bet. He has managed grantmaking in various sectors, including Population & Reproductive Health and Human Rights. Before joining the Foundation in 1999, Shettima taught at several universities and volunteered for numerous organizations. He has published in various academic journals and holds a PhD from the University of Toronto, a Master's from Ahmadu Bello University, and an undergraduate degree from the University of Maiduguri. He serves on the boards of several organizations, including the JAIZ Charity and Development Foundation and the Sir Ahmadu Bello Memorial Foundation",
-          img: TabImage3,
-          link: ''
-      },
+ 
       {
           name: "Dr Yashua Alkali Hamza PhD. ",
           title: "Member Board of Directors ",
@@ -71,27 +64,17 @@ export default function NewTeam() {
           img: TabImage5,
           link: ''
       },
+    
+
+     
       {
-          name: 'Amina Baba Manu ',
-          title: "Member Board of Directors",
-          description: "Amina Baba Manu has over 20 years of experience in the development sector, working with organizations like STEP and ActionAid Nigeria in various capacities. She has supported over 500 NGOs with technical assistance, skill development, and mentoring in areas such as organizational development, fundraising, and strategic planning. Currently an independent consultant, Amina collaborates with multiple organizations, including UNICEF and Save the Children. She is dedicated to helping small national NGOs grow and become sustainable.",
-          img: TabImage6,
-          link: ''
-      },
-      {
-          name: 'Yakubu Jibrin ',
-          title: "Member Board of Directors",
-          description: "Yakubu Jibrin, MBA, BSc (Hons) Accounting, FIMC, is a specialist in Finance, Human Resource, and Operations Management with nearly 30 years of experience, including 10 years in management roles within the development sector. He served as Director of Business Operations at Friends for Global Health Initiative and Friends in Global Health from 2009 to 2017. He previously worked with Family Health International and Partnership for Transforming Health Systems from 2005 to 2009, and supported a Bill and Melinda Gates Foundation project in Kano. He also served as a Technical Assistant in Finance for the Presidential Task Force on COVID-19. Before entering the development sector, he held finance and administration roles at MicroAccess Limited, Afri-Projects Consortium, and New Nigeria Development Company.",
-          img: TabImage7,
-          link: ''
-      },
-      {
-          name: 'Mohammad Farouk Jega',
-          title: "Member Board of Directors, Senior Program Director",
-          description: "Farouk is an obstetrics and gynecologist and project management expert with over 2 decades of clinical, managerial and leadership roles in the health and development sector. He had served as Country Director of Pathfinder International for Nigeria and Ghana from 2012 to 2020 and Senior Program Director/Regional Director from 2020 to 2022. He holds a medical degree from the University of Jos and a Master of Public Health from Liverpool School of Tropical Medicine.",
-          img: TabImage8,
-          link: ''
-      },
+        name: "Kole Shettima PhD",
+        title: "Member Board of Directors ",
+
+        description: "Kole Shettima is the African Regional Director of the MacArthur Foundation and Co-Director of the On Nigeria Big Bet. He has managed grantmaking in various sectors, including Population & Reproductive Health and Human Rights. Before joining the Foundation in 1999, Shettima taught at several universities and volunteered for numerous organizations. He has published in various academic journals and holds a PhD from the University of Toronto, a Master's from Ahmadu Bello University, and an undergraduate degree from the University of Maiduguri. He serves on the boards of several organizations, including the JAIZ Charity and Development Foundation and the Sir Ahmadu Bello Memorial Foundation",
+        img: TabImage3,
+        link: ''
+    },
       {
           name: 'Fatima Jika',
           title: "Member Board of Directors",
@@ -119,7 +102,7 @@ export default function NewTeam() {
   return (
     <main className='mt-10 flex flex-col justify-center items-center'>
         <div>
-            <h1 className="text-center text-black text-4xl font-bold mt-10 mb-4">Our Team</h1>
+            <h1 className="text-center text-black text-4xl font-bold mt-10 mb-4">Board Of Directors</h1>
         </div>
        <div className='w-[80%]'>
        <Tab.Group>
