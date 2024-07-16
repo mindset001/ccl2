@@ -4,11 +4,8 @@ import { Fragment } from 'react'
 import Image, { StaticImageData } from 'next/image'
 import { Disclosure, Transition } from '@headlessui/react'
 import { Caveat } from 'next/font/google'
-import TabImage01 from '../../../public/images/aminach.png'
-import TabImage2 from '../../../public/images/jumoke.png'
-import TabImage3 from '../../../public/images/kole.png'
-import TabImage4 from '../../../public/images/yashaua.png'
-import TabImage5 from '../../../public/images/ku.png'
+import TabImage1 from '../../../public/images/log.png'
+
 import TabImage6 from '../../../public/images/amin.png'
 import TabImage7 from '../../../public/images/yak.png'
 import TabImage8 from '../../../public/images/farouq.png'
@@ -54,21 +51,21 @@ export default function TeachTeam2() {
           name: 'Fatima Mohammed',
           title: "",
           description: "A motivated, adaptable and responsible public health practitioner, passionate about women’s health and the health and welfare of poor and vulnerable persons. She served the Kaduna state government as Midwife Educator for over 10 years rising to the position of a Deputy Director. She has strong drive to see things through to completion while being methodical and client/beneficiary focused, participatory approach for decision making and inclusive programme delivery. Fatima has over 15 years’ experience in development work and has overseen the start-off and implementation of seven (7) Maternal, Newborn, Child Health and Family Planning programs.",
-          img: '',
+          img: TabImage1,
           link: ''
       },
       {
           name: 'Muhammad Saddiq',
           title: "",
           description: "Dr Muhammad Saddiq holds an MBBS from Ahmadu Bello University Zaria, an MPH and a PhD in health systems research from University of Sheffield, UK, with a career spanning over 20 years across government, the World Health Organisation (WHO), and academia. His current roles are Deputy Director of Public Health and Senior University Teacher in Health Services, Systems & Management at Division of Population Health, School of Medicine and Population Health, University of Sheffield a world-leading UK health research institution. Dr Saddiq previously served as WHO’s National Professional Officer (Malaria) for Nigeria, aiding West African countries in planning, conducting, and evaluating malaria control and other public health interventions. Most recently, he served as the Chair of the Health Information System subcommittee of the Presidential Health Sector Reform Committee leading the development of the digitization plan for the health systems in Nigeria.",
-          img: '',
+          img: TabImage1,
           link: ''
       },
       {
           name: 'Azeez Oseni ',
           title: "",
           description: "Public health physician and international development specialist with 16+ years of experience in development and humanitarian programs, with a specific technical focus on public health, food security, and nutrition. Extensive international experience in 15+ countries across Sub-Saharan Africa. Held senior technical and management positions including serving as chief of party, director, advisor, and manager for top rated international development organizations. Significant consulting experience and current Executive Director of Revive the Future (RTF) and Health, Agriculture, and Nutrition for Development (HAND). Strong research background with involvement in over 20 studies. Experience in youth, gender and child-oriented programming. Holds qualifications in Medicine, Public Health, and Project Management, with technical competencies in nutrition, health systems strengthening, health service delivery, food security, livelihoods, and resilience. Experience working with a diverse range of international donors including USAID, USDA, OFDA, DFID/FCDO, Global Fund, ECHO, EU, KfW, Sweden, Canada, Aliko Dangote Foundation, Bill and Melinda Gates Foundation, and PEPFAR. Direct country experience in Nigeria, South Sudan, Sierra Leone, and the USA, and indirect experience in Zambia, Zimbabwe, Malawi, Madagascar, South Africa, Lesotho, and Mozambique.",
-          img: '',
+          img: TabImage1,
           link: ''
       },
      
