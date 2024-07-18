@@ -12,6 +12,7 @@ import TabImage8 from '../../../public/images/farouq.png'
 import TabImage9 from '../../../public/images/fati.png'
 import TabImage10 from '../../../public/images/mike2.png'
 import TabImage11 from '../../../public/images/mai.png'
+import Link from 'next/link'
 
 const caveat = Caveat({
   subsets: ['latin'],
@@ -35,14 +36,14 @@ export default function TeachTeam2() {
      
         {
             name: 'Amina Baba Manu ',
-            title: "Member Board of Directors",
+            title: "",
             description: "Amina Baba Manu has over 20 years of experience in the development sector, working with organizations like STEP and ActionAid Nigeria in various capacities. She has supported over 500 NGOs with technical assistance, skill development, and mentoring in areas such as organizational development, fundraising, and strategic planning. Currently an independent consultant, Amina collaborates with multiple organizations, including UNICEF and Save the Children. She is dedicated to helping small national NGOs grow and become sustainable.",
             img: TabImage6,
-            link: ''
+            link: 'https://www.linkedin.com/in/amina-baba-manu-9129217a?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BnzRi9c00Qf%2BqTWVSyvJ1Bw%3D%3D'
         },
         {
             name: 'Yakubu Jibrin ',
-            title: "Member Board of Directors",
+            title: "",
             description: "Yakubu Jibrin, MBA, BSc (Hons) Accounting, FIMC, is a specialist in Finance, Human Resource, and Operations Management with nearly 30 years of experience, including 10 years in management roles within the development sector. He served as Director of Business Operations at Friends for Global Health Initiative and Friends in Global Health from 2009 to 2017. He previously worked with Family Health International and Partnership for Transforming Health Systems from 2005 to 2009, and supported a Bill and Melinda Gates Foundation project in Kano. He also served as a Technical Assistant in Finance for the Presidential Task Force on COVID-19. Before entering the development sector, he held finance and administration roles at MicroAccess Limited, Afri-Projects Consortium, and New Nigeria Development Company.",
             img: TabImage7,
             link: ''
@@ -56,27 +57,21 @@ export default function TeachTeam2() {
       },
       {
           name: 'Muhammad Saddiq',
-          title: "",
+          link: "https://www.linkedin.com/in/muhammad-saddiq-3b221789?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BWZwKpOPLS7ysXuYkgbU2Jg%3D%3D",
           description: "Dr Muhammad Saddiq holds an MBBS from Ahmadu Bello University Zaria, an MPH and a PhD in health systems research from University of Sheffield, UK, with a career spanning over 20 years across government, the World Health Organisation (WHO), and academia. His current roles are Deputy Director of Public Health and Senior University Teacher in Health Services, Systems & Management at Division of Population Health, School of Medicine and Population Health, University of Sheffield a world-leading UK health research institution. Dr Saddiq previously served as WHO’s National Professional Officer (Malaria) for Nigeria, aiding West African countries in planning, conducting, and evaluating malaria control and other public health interventions. Most recently, he served as the Chair of the Health Information System subcommittee of the Presidential Health Sector Reform Committee leading the development of the digitization plan for the health systems in Nigeria.",
           img: TabImage1,
-          link: ''
+          title: ''
       },
       {
           name: 'Azeez Oseni ',
-          title: "",
+          link: "https://www.linkedin.com/in/azeezoseni?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAtGQS0BwNF0fKBmCEHNGbTzLeQu5d-sf_g&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BxxYSo0bmR4OYCoOy6ZiI2A%3D%3D",
           description: "Public health physician and international development specialist with 16+ years of experience in development and humanitarian programs, with a specific technical focus on public health, food security, and nutrition. Extensive international experience in 15+ countries across Sub-Saharan Africa. Held senior technical and management positions including serving as chief of party, director, advisor, and manager for top rated international development organizations. Significant consulting experience and current Executive Director of Revive the Future (RTF) and Health, Agriculture, and Nutrition for Development (HAND). Strong research background with involvement in over 20 studies. Experience in youth, gender and child-oriented programming. Holds qualifications in Medicine, Public Health, and Project Management, with technical competencies in nutrition, health systems strengthening, health service delivery, food security, livelihoods, and resilience. Experience working with a diverse range of international donors including USAID, USDA, OFDA, DFID/FCDO, Global Fund, ECHO, EU, KfW, Sweden, Canada, Aliko Dangote Foundation, Bill and Melinda Gates Foundation, and PEPFAR. Direct country experience in Nigeria, South Sudan, Sierra Leone, and the USA, and indirect experience in Zambia, Zimbabwe, Malawi, Madagascar, South Africa, Lesotho, and Mozambique.",
           img: TabImage1,
-          link: ''
+          title: ''
       },
      
      
-      {
-          name: 'Mohammad Farouk Jega',
-          title: "Senior Program Director/Member Board of Directors",
-          description: "Farouk is an obstetrics and gynecologist and project management expert with over 2 decades of clinical, managerial and leadership roles in the health and development sector. He had served as Country Director of Pathfinder International for Nigeria and Ghana from 2012 to 2020 and Senior Program Director/Regional Director from 2020 to 2022. He holds a medical degree from the University of Jos and a Master of Public Health from Liverpool School of Tropical Medicine.",
-          img: TabImage8,
-          link: ''
-      },
+    
       
     ]
 
@@ -124,6 +119,8 @@ export default function TeachTeam2() {
                           </header>
                         </div>
                         <div className="text-slate-500 text-sm mb-2">{tab.description}</div>
+                        
+                      <Link href={tab.link}><div><Image src='https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/LinkedIn_Logo.svg/437px-LinkedIn_Logo.svg.png?20170711102837' alt='' width={300} height={300} className='w-[100px] h-[] underline border-b border-[blue]'/></div></Link>
                       </div>
                     </div>
                   </Disclosure.Panel>

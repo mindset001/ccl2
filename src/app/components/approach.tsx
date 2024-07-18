@@ -35,7 +35,7 @@ function Approach() {
      
         <div className=' bg-[#0E1729] rounded-[20px] p-4 '>
             
-            <p className='text-[#f2f2f2] font-[300]'>Engage <span className='font-[800]'>Assess, analyze</span> to understand needs and priorities by generously listening and get to the core problem to solve, and to establish partnership principles of trust, mutuality, transparency, and sustainable results. </p>
+            <p className='text-[#f2f2f2] font-[300]'>Engage <span className='font-[800]'>Assess, analyze</span> to understand needs and priorities by generously listening and getting to the core of the problems that need solving, and to establish partnership principles of trust, mutuality, transparency, and sustainable results. </p>
         </div>
         <div className=' bg-[#0E1729] rounded-[20px] p-4 '>
             
@@ -43,7 +43,7 @@ function Approach() {
         </div>
         <div className=' bg-[#0E1729] rounded-[20px] p-4 '>
             
-            <p className='text-[#f2f2f2] font-[300]'><span className='font-[800]'>Contextualize</span> solutioning by facilitating locally led implementation, based on analysis of need, context, priorities and comparing with what has worked or failed in similar situations. We then facilitate joint development of solutioning plans and adapting global best practice appropriate for the context to address local challenges.</p>
+            <p className='text-[#f2f2f2] font-[300]'><span className='font-[800]'>Contextualize</span> solutioning by facilitating locally led cocreation, based on analysis of need, context, priorities and comparing with what has worked or failed in similar situations. We then facilitate joint development of solutioning plans and adapting global best practices appropriate for the context to address local challenges.</p>
         </div>
         <div className=' bg-[#0E1729] rounded-[20px] p-4 '>
             
