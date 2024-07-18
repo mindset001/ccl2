@@ -1,6 +1,5 @@
 'use client'
 import { useState } from 'react';
-import { HoverEffect } from "../../components/ui/card-hover-effect";
 
 export function Expertise() {
   return (
@@ -61,11 +60,7 @@ const ProjectCard = ({ project }) => {
   );
 };
 
-// Function to truncate description to about 120 characters
-// const truncateDescription = (description) => {
-//   if (description.length <= 120) return description;
-//   return description.substring(0, 120) + '...';
-// };
+
 
 export const projects = [
   {

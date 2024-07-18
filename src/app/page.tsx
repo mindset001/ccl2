@@ -5,8 +5,7 @@ import { Values } from "./components/values";
 import {Expertise }from "./components/expertise"
 import { Floating } from "./components/floating";
 import { Hero } from "./components/hero";
-import {Staff} from "./components/staff"
-import About from "./components/about"
+
 import Work from "./components/work";
 import NewAbout from "./components/new";
 import Approach from "./components/approach";
@@ -29,18 +28,12 @@ export default function Home() {
       <div id="values">
       <Values/>
       </div>
-      {/* <div id="about" className="mb-10">
-      <About/>
-      
-      </div> */}
+   
       <div id="about">
       <NewAbout />
       <Work/>
       </div>
-{/*      
-      <div id="team">
-      <Staff/>
-      </div> */}
+
       <div>
         <Approach/>
       </div>

@@ -5,7 +5,6 @@ import Logo from '../../../public/images/log.png'
 import Image from "next/image";
 import { cn } from "../../utils/cn";
 import { TypewriterEffectSmooth } from "@/components/ui/typewriter-effect";
-import { TypeAnimation } from 'react-type-animation';
 import Link from "next/link";
 
 export function Hero() {
@@ -44,20 +43,7 @@ export function Hero() {
         <div className="flex flex-col items-center justify-center">
           <Boxes />
           <h1 className={cn("md:text-4xl text-xl text-white relative z-20")}>
-            {/* Capacity Connect Limited */}
-
-            {/* <div className="block">
-              <TypeAnimation
-                sequence={[
-                  'Capacity Connect Limited',
-
-                ]}
-                wrapper="span"
-                speed={50}
-                repeat={Infinity}
-                className="text-24px md:text-[60px] lg:text-[70px] font-[700]"
-              />
-            </div> */}
+           
 
             <div className=" md:block">
               <TypewriterEffectSmooth words={words} className="text-[60px]" />
