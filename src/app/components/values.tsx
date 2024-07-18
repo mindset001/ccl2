@@ -9,10 +9,9 @@ export function Values() {
     <h1 className="text-black my-10 text-4xl font-[700]">Our Values</h1>
   
       <div className="">
-      <div  className={cn(
-        "grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3 gap-4 py-10",
-        // className
-      )}>
+      <div  className=
+        "grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3 gap-4 py-10"
+      >
         {testimonials.map((item, i: number) => (
           <div key={i} className="item ml-2" data-value="1">
             <div className="w-[345px] px-4 rounded-lg h-[40vh] bg-[#0E1729] text-white flex flex-col items-center justify-center">
